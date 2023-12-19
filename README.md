@@ -20,3 +20,12 @@ Derive insights from images in the cloud or at the edge with AutoML Vision or us
 
 **Translation AI**
 Make your content and apps multilingual with fast, dynamic machine translation
+
+
+**Test (mannual)**
+1. Copy the sign.png file to uploaded-images bucket
+  gsutil cp sign.png gs://app1-uploaded-images
+  Navigate to the translated-results bucket, and you will see a list of .txt files for all translations.
+2. copy the menu.jpg file to uploaded-images bucket
+   gsutil cp menu.jpg gs://app1-uploaded-images
+   Verify the menu.jpg image file was uploaded successfully by opening your bucket for uploaded-images
