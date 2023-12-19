@@ -1,3 +1,4 @@
+**Scenario** : take a photo that has been uploaded, examine it for text, extract any text that is found, translate that text into various languages, and then store those translations for easy retrieval.
 
 ****Steps**** **used in the solutions**:
   1. Enable APIs.
